@@ -8,6 +8,11 @@ let deferredPrompt;
 
 // Sample data - replace with API calls in production
 const sampleMatches = [
+    // Replace this line:
+const response = await fetch('https://api.cricapi.com/v1/currentMatches?apikey=YOUR_API_KEY');
+
+// With your actual key:
+const response = await fetch('https://api.cricapi.com/v1/currentMatches?apikey=f62eceea-09d2-45a4-9b6e-42b3afdada5d');
     {
         id: 1,
         team1: "India",
